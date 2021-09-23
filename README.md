@@ -22,5 +22,9 @@ Install-Module -Name MicrosoftTeams -AllowPrerelease -RequiredVersion "2.4.1-pre
 
 Video hướng dẫn: https://youtu.be/sxtPkhgdxjo
 
+Nếu muốn xoá users trong team, có thể tham khảo: https://pnp.github.io/cli-microsoft365/sample-scripts/aad/manage-group-users/
+
 # Tài liệu tham khảo
 Các lệnh làm việc với MS Teams qua PowerShell: https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps
+
+
