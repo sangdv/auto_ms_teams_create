@@ -5,7 +5,7 @@
 - MacOS: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos?view=powershell-7.1  
 - Linux: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.1  
 
-3. Chạy PowerShell dưới quyền Administrator rồi chạy lần lượt các lệnh sau:  
+2. Chạy PowerShell dưới quyền Administrator rồi chạy lần lượt các lệnh sau:  
 ```
 Install-Module -Name PowerShellGet -Repository PSGallery -Force  
 
