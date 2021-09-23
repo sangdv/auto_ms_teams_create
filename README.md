@@ -1,9 +1,9 @@
 # Hướng dẫn cài đặt
 1. Cài đặt PowerShell  
-Windows 10: có sẵn, không cần cài thêm  
-Windows 8 trở xuống: cần nâng cấp PowerShell lên phiên bản 5.1 (download tại https://www.microsoft.com/en-us/download/details.aspx?id=54616)  
-MacOS: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos?view=powershell-7.1  
-Linux: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.1  
+- Windows 10: có sẵn, không cần cài thêm  
+- Windows 8 trở xuống: cần nâng cấp PowerShell lên phiên bản 5.1 (download tại https://www.microsoft.com/en-us/download/details.aspx?id=54616)  
+- MacOS: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos?view=powershell-7.1  
+- Linux: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.1  
 
 3. Chạy PowerShell dưới quyền Administrator rồi chạy lần lượt các lệnh sau:  
 ```
