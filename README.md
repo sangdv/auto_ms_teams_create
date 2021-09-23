@@ -20,7 +20,7 @@ Install-Module -Name MicrosoftTeams -AllowPrerelease -RequiredVersion "2.4.1-pre
 4. Vào PowerShell chạy **script.ps1**, nhập tên group của Team mới mà mình muốn tạo và chờ cho nhập hết sinh viên
 5. Vào MS Teams để **Activate** cho team vừa tạo
 
-Tham khảo video hướng dẫn tại: https://youtu.be/sxtPkhgdxjo
+ideo hướng dẫn: https://youtu.be/sxtPkhgdxjo
 
-# Tham khảo
-Có thể tham khảo tất cả các lệnh làm việc với MS Teams tại đây: https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps
+# Tài liệu tham khảo
+Các lệnh làm việc với MS Teams qua PowerShell: https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps
