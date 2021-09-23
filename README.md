@@ -11,7 +11,7 @@ Install-Module -Name PowerShellGet -Repository PSGallery -Force
 
 Set-ExecutionPolicy Unrestricted  
 ```
-3. Tắt và bật lại powershell rồi chạy lệnh sau:  
+3. Tắt và bật lại PowerShell rồi chạy lệnh sau:  
 ```
 Install-Module -Name MicrosoftTeams -AllowPrerelease -RequiredVersion "2.4.1-preview" -AllowClobber  
 ```
