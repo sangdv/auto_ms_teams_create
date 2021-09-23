@@ -8,6 +8,7 @@ Linux: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-
 3. Chạy PowerShell dưới quyền Administrator rồi chạy lần lượt các lệnh sau:  
 ```
 Install-Module -Name PowerShellGet -Repository PSGallery -Force  
+
 Set-ExecutionPolicy Unrestricted  
 ```
 3. Tắt và bật lại powershell rồi chạy lệnh sau:  
