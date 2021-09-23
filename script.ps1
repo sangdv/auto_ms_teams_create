@@ -7,7 +7,6 @@ $GROUP_NAME = Read-Host -Prompt 'Enter group name'
 # Doc danh sach email tu file csv
 $USERS = Import-Csv -Path "$FILE_LOCATION"
 
-
 # Ket noi voi Microsoft Teams
 Get-Module -ListAvailable -Name MicrosoftTeams
 Connect-MicrosoftTeams
