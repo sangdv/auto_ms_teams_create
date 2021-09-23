@@ -8,7 +8,7 @@ Set-ExecutionPolicy Unrestricted
 ```
 Install-Module -Name MicrosoftTeams -AllowPrerelease -RequiredVersion "2.4.1-preview" -AllowClobber  
 ```
-# Hướng dẫn chạy code để tạo group tự động
+# Hướng dẫn chạy code để tạo team tự động
 1. Vào qldt.hust.edu.vn, xuất danh sách sinh viên của lớp, xoá tất cả các cột chỉ giữ cột email.
 2. Lưu (Save as) danh sách email dưới dạng csv utf-8. File csv này cần lưu cùng thư mục chứa file **script.ps1**
 3. Sửa đổi nội dung trong **script.ps1** thành tên file csv tương ứng ở bước 2.
