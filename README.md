@@ -16,3 +16,6 @@ Install-Module -Name MicrosoftTeams -AllowPrerelease -RequiredVersion "2.4.1-pre
 5. Vào MS Teams để **Activate** cho team vừa tạo
 
 Tham khảo video hướng dẫn tại: https://youtu.be/sxtPkhgdxjo
+
+# Tham khảo
+Có thể tham khảo tất cả các lệnh làm việc với MS Teams tại đây: https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps
