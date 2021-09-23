@@ -27,4 +27,4 @@ foreach ($row in $USERS) {
     #Start-Sleep -s 2
 }
 
-Write-Host "Users added to the team successfully !"
+Write-Host "Users have been successfully added to the team!"
