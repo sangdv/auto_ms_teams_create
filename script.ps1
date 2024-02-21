@@ -13,17 +13,34 @@ Connect-MicrosoftTeams
 
 # Kiem tra group ton tai chua?
 $group = Get-Team -DisplayName $GROUP_NAME
-
+#Write-Host ("Adding " + $group.GroupId)
 # Neu chua thi tao group moi
 if ($null -eq $group){
     $group = New-Team -displayname $GROUP_NAME -Template EDU_Class
 }    
 
-# Add cac sinh vien vao nhom Team vua tao
+$groupID = $group[0].GroupId
+
+# Tạo các private channel
 foreach ($row in $USERS) {   
-    Write-Host ("Adding " + $row.email)
-    Add-TeamUser -GroupId $group.GroupId -User $row.email 
-    #Start-Sleep -s 2
+    New-TeamChannel -GroupId $groupID -DisplayName $row.channel -MembershipType Private
 }
 
+# Add cac sinh vien vao nhom Team vua tao
+foreach ($row in $USERS) {  
+
+    # Add sinh vien vao group  
+    Write-Host ("Adding " + $row.email)
+    Add-TeamUser -GroupId $groupID -User $row.email 
+
+    # Xoa sinh vien khoi group
+    # Remove-TeamUser -GroupId $group[0].GroupId -User $row.email
+
+
+    # Them sinh vien vao private channel
+    # Write-Host ("Adding " + $row.email + " to " + $row.channel)
+    # Add-TeamChannelUser -GroupId $groupID -DisplayName $row.channel -User $row.email
+
+    # Add-TeamChannelUser -GroupId $groupID -DisplayName $row.channel -User "nga.nguyenthithanh@hust.edu.vn" -Role "Owner"
+}
 Write-Host "Users have been successfully added to the team!"
