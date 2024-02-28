@@ -13,7 +13,7 @@ Set-ExecutionPolicy Unrestricted
 ```
 3. Tắt và bật lại PowerShell rồi chạy lệnh sau:  
 ```
-Install-Module -Name MicrosoftTeams -AllowPrerelease -RequiredVersion "2.4.1-preview" -AllowClobber  
+Install-Module -Name MicrosoftTeams -AllowPrerelease -RequiredVersion "2.4.1-preview" -AllowClobber -Force
 ```
 # Hướng dẫn chạy code để tạo team tự động
 1. Vào https://qldt.hust.edu.vn, xuất danh sách sinh viên của lớp, xoá tất cả các cột chỉ giữ cột email (phải giữ cả header *Email*).
